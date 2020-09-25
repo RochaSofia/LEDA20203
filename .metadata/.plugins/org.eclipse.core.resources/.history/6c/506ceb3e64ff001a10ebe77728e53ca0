@@ -1,7 +1,6 @@
 package sorting.simpleSorting;
 
 import sorting.AbstractSorting;
-import util.Util;
 
 /**
  * The selection sort algorithm chooses the smallest element from the array and
@@ -17,10 +16,9 @@ public class SelectionSort<T extends Comparable<T>> extends AbstractSorting<T> {
 			int posicaoDoMenor = i;
 			for(int j = i+1;j<rightIndex+1;j++) {
 				if(array[j].compareTo(array[posicaoDoMenor]) < 0) {
-					Util.swap(array, posicaoDoMenor, j);
-//					T aux = array[posicaoDoMenor];
-//					array[posicaoDoMenor] = array[j];
-//					array[j] = aux;
+					T aux = array[posicaoDoMenor];
+					array[posicaoDoMenor] = array[j];
+					array[j] = aux;
 					
 				}
 			}
