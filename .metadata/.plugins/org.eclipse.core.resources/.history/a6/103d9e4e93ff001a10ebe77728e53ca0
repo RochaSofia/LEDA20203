@@ -29,7 +29,7 @@ public class RecursiveSelectionSort<T extends Comparable<T>> extends
 					}
 				}
 		}
-			 sort(array,leftIndex+1,rightIndex);
+			return sort(array,leftIndex+1,rightIndex);
 		}
 
 		
