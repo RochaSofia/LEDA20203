@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="sorting.simpleSorting.BubbleSort"/>
 <fullyQualifiedTypeName name="sorting.simpleSorting.InsertionSort"/>
+<fullyQualifiedTypeName name="sorting.simpleSorting.SelectionSort"/>
+<fullyQualifiedTypeName name="sorting.simpleSorting.BubbleSort"/>
+<fullyQualifiedTypeName name="util.Util"/>
+<fullyQualifiedTypeName name="sorting.variationsOfBubblesort.RecursiveBubbleSort"/>
+<fullyQualifiedTypeName name="sorting.variationsOfBubblesort.BidirectionalBubbleSort"/>
+<fullyQualifiedTypeName name="sorting.variationsOfSelectionsort.RecursiveSelectionSort"/>
+<fullyQualifiedTypeName name="sorting.divideAndConquer.MergeSort"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

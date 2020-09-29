@@ -18,12 +18,8 @@ public class SelectionSort<T extends Comparable<T>> extends AbstractSorting<T> {
 			for(int j = i+1;j<rightIndex+1;j++) {
 				if(array[j].compareTo(array[posicaoDoMenor]) < 0) {
 					Util.swap(array, posicaoDoMenor, j);
-//					T aux = array[posicaoDoMenor];
-//					array[posicaoDoMenor] = array[j];
-//					array[j] = aux;
-					
 				}
-			}
+		}
 		}
 		//throw new UnsupportedOperationException("Not Implemented yet!");
 	}

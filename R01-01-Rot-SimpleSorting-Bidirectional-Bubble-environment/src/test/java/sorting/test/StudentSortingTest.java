@@ -46,6 +46,7 @@ public class StudentSortingTest {
 		// null
 		
 		this.implementation = new RecursiveSelectionSort<Integer>();
+		this.implementation = new SelectionSort<Integer>();
 		//Assert.fail("Implementation not provided");
 	}
 
