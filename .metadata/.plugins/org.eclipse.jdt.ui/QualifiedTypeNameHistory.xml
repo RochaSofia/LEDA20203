@@ -9,4 +9,5 @@
 <fullyQualifiedTypeName name="sorting.variationsOfSelectionsort.RecursiveSelectionSort"/>
 <fullyQualifiedTypeName name="sorting.divideAndConquer.MergeSort"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="sorting.divideAndConquer.QuickSort"/>
 </qualifiedTypeNameHistroy>
