@@ -1,6 +1,7 @@
 package sorting.divideAndConquer;
 
 import sorting.AbstractSorting;
+import util.Util;
 
 /**
  * Quicksort is based on the divide-and-conquer paradigm. The algorithm chooses
@@ -33,18 +34,12 @@ public class QuickSort<T extends Comparable<T>> extends AbstractSorting<T> {
 		for(int j = i +1;j <= fim ;j++) {
 			if(array[j].compareTo(pivot) < 0 || array[j].compareTo(pivot) == 0) {
 				i = i+1;
-				troca(array,i,j);
+				Util.swap(array,i,j);
 			}
 		}
-		troca(array,inicio,i);
+		Util.swap(array,inicio,i);
 		
 		return i;
 	}
 	
-	private void troca(T [] array,int i, int j) {
-		T aux = array[i];
-		array[i] = array[j];
-		array[j] = aux;
-		
-	}
 }

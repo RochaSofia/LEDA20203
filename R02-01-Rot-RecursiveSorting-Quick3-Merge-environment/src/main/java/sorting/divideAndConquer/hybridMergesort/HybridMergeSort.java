@@ -34,24 +34,33 @@ public class HybridMergeSort<T extends Comparable<T>> extends
 
 	public void sort(T[] array, int leftIndex, int rightIndex) {
 		// TODO Auto-generated method stub
-		MERGESORT_APPLICATIONS = 0;
-		INSERTIONSORT_APPLICATIONS = 0;
-		if(rightIndex >= SIZE_LIMIT) {
 			if(leftIndex<rightIndex) {
-				int meio = (leftIndex+rightIndex)/2;
-				sort(array,leftIndex,meio);
-				sort(array,meio+1,rightIndex);
-				merge(array,leftIndex,meio,rightIndex);
+				MERGESORT_APPLICATIONS = 0;
+				INSERTIONSORT_APPLICATIONS = 0;
+					mergeHibrido(array, leftIndex,rightIndex);
 			}
+	}
+	private void mergeHibrido(T[] array, int leftIndex, int rightIndex) {
+		int tamanho = (rightIndex-leftIndex) + 1;
+		if(tamanho > SIZE_LIMIT) {
+			mergeSort(array,leftIndex,rightIndex);
+			MERGESORT_APPLICATIONS++;
 		}else {
 			insertion(array);
+			INSERTIONSORT_APPLICATIONS++;
 		}
-		
-		//throw new UnsupportedOperationException("Not implemented yet!");
 	}
-	private void merge(T[] array,int leftIndex,int meio,int rightIndex) {
-		MERGESORT_APPLICATIONS++;
+	private void mergeSort(T[] array, int leftIndex, int rightIndex) {
+		if(leftIndex<rightIndex) {
+			int meio =(leftIndex+rightIndex)/2;
+			mergeHibrido(array,leftIndex,meio);
+			mergeHibrido(array,meio+1,rightIndex);
+			merge(array,leftIndex,rightIndex);
+		}
+	}
+	private void merge(T[] array,int leftIndex,int rightIndex) {
 		T[] aux = Arrays.copyOf(array, array.length);
+		int meio =(leftIndex+rightIndex)/2;
 		int i = leftIndex;
 		int j= meio+1;
 		int k= leftIndex;
@@ -69,8 +78,8 @@ public class HybridMergeSort<T extends Comparable<T>> extends
 				array[k++] = aux[j++];
 			}
 		}
+	
 	private void insertion(T[] array){
-		INSERTIONSORT_APPLICATIONS ++;
 		for(int i=1;i< array.length;i++) {
 			int j=i;
 			while(j>0 && (array[j].compareTo(array[j-1]) < 0)) {

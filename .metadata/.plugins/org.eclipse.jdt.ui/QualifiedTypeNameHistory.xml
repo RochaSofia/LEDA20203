@@ -3,11 +3,11 @@
 <fullyQualifiedTypeName name="sorting.simpleSorting.InsertionSort"/>
 <fullyQualifiedTypeName name="sorting.simpleSorting.SelectionSort"/>
 <fullyQualifiedTypeName name="sorting.simpleSorting.BubbleSort"/>
-<fullyQualifiedTypeName name="util.Util"/>
 <fullyQualifiedTypeName name="sorting.variationsOfBubblesort.RecursiveBubbleSort"/>
 <fullyQualifiedTypeName name="sorting.variationsOfBubblesort.BidirectionalBubbleSort"/>
 <fullyQualifiedTypeName name="sorting.variationsOfSelectionsort.RecursiveSelectionSort"/>
 <fullyQualifiedTypeName name="sorting.divideAndConquer.MergeSort"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="sorting.divideAndConquer.QuickSort"/>
+<fullyQualifiedTypeName name="util.Util"/>
 </qualifiedTypeNameHistroy>
