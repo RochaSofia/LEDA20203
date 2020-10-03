@@ -1,6 +1,9 @@
 package sorting.divideAndConquer.hybridMergesort;
 
+import java.util.Arrays;
+
 import sorting.AbstractSorting;
+import util.Util;
 
 /**
  * A classe HybridMergeSort representa a implementação de uma variação do
@@ -31,6 +34,50 @@ public class HybridMergeSort<T extends Comparable<T>> extends
 
 	public void sort(T[] array, int leftIndex, int rightIndex) {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		MERGESORT_APPLICATIONS = 0;
+		INSERTIONSORT_APPLICATIONS = 0;
+		if(rightIndex >= SIZE_LIMIT) {
+			if(leftIndex<rightIndex) {
+				int meio = (leftIndex+rightIndex)/2;
+				sort(array,leftIndex,meio);
+				sort(array,meio+1,rightIndex);
+				merge(array,leftIndex,meio,rightIndex);
+			}
+		}else {
+			insertion(array);
+		}
+		
+		//throw new UnsupportedOperationException("Not implemented yet!");
+	}
+	private void merge(T[] array,int leftIndex,int meio,int rightIndex) {
+		MERGESORT_APPLICATIONS++;
+		T[] aux = Arrays.copyOf(array, array.length);
+		int i = leftIndex;
+		int j= meio+1;
+		int k= leftIndex;
+		while(i<=meio && j<=rightIndex) {
+			if(aux[i].compareTo(aux[j]) < 0) {
+					array[k++] = aux[i++];
+			}else {
+					array[k++] = aux[j++];
+			}
+		}
+		while(i <= meio) {
+				array[k++] = aux[i++];
+			}
+		while(j <= rightIndex) {
+				array[k++] = aux[j++];
+			}
+		}
+	private void insertion(T[] array){
+		INSERTIONSORT_APPLICATIONS ++;
+		for(int i=1;i< array.length;i++) {
+			int j=i;
+			while(j>0 && (array[j].compareTo(array[j-1]) < 0)) {
+				
+				Util.swap(array,j,j-1);
+				j--;
+			}
+		}
 	}
 }

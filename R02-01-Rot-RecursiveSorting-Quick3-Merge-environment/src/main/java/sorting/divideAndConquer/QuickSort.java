@@ -27,7 +27,7 @@ public class QuickSort<T extends Comparable<T>> extends AbstractSorting<T> {
 
 	}
 	
-	public int particiona (T [] array, int inicio, int fim) {
+	private int particiona (T [] array, int inicio, int fim) {
 		T pivot = array[inicio];
 		int i = inicio;
 		for(int j = i +1;j <= fim ;j++) {
@@ -41,7 +41,7 @@ public class QuickSort<T extends Comparable<T>> extends AbstractSorting<T> {
 		return i;
 	}
 	
-	public void troca(T [] array,int i, int j) {
+	private void troca(T [] array,int i, int j) {
 		T aux = array[i];
 		array[i] = array[j];
 		array[j] = aux;
