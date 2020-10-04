@@ -18,7 +18,8 @@ public class QuickSort<T extends Comparable<T>> extends AbstractSorting<T> {
 		// TODO Auto-generated method stub
 		if(leftIndex < 0 || rightIndex > array.length -1 || array.length == 1) {
 			return;
-		}else {
+		}
+
 			if(leftIndex < rightIndex) {
 				int posicaoDoPivot = particiona(array,leftIndex,rightIndex);
 				sort(array,leftIndex,posicaoDoPivot - 1);
@@ -26,7 +27,6 @@ public class QuickSort<T extends Comparable<T>> extends AbstractSorting<T> {
 			}
 	}
 
-	}
 	
 	private int particiona (T [] array, int inicio, int fim) {
 		T pivot = array[inicio];

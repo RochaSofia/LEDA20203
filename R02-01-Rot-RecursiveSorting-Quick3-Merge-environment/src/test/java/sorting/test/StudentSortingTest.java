@@ -42,7 +42,7 @@ public class StudentSortingTest {
 	private void getImplementation() {
 		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
 		// null
-		this.implementation = new HybridMergeSort<Integer>();
+		this.implementation = new MergeSort<Integer>();
 //		Assert.fail("Implementation not provided");
 	}
 
@@ -77,7 +77,6 @@ public class StudentSortingTest {
 		Arrays.sort(copy1);
 		Assert.assertArrayEquals(copy1, array);
 	}
-
 	@Test
 	public void testSort01() {
 		genericTest(vetorTamPar);
@@ -110,6 +109,13 @@ public class StudentSortingTest {
 	 * SEGUIR A ESTRUTURA DOS MÉTODOS DE TESTE ACIMA DESCRITOS, ORDENANDO APENAS
 	 * UMA PARTE DO ARRAY.
 	 */
-	
+	@Test
+	public void testeParcialOrdenado() {
+		Integer [] array  = {0,1,2,3,4,5,8,6,8,9,7,10};
+		Integer[] vetorCopia = Arrays.copyOf(array,array.length);
+		Arrays.sort(vetorCopia);
+		this.implementation.sort(array,6,11);
+		Assert.assertArrayEquals(vetorCopia,array);
+	}
 	
 }

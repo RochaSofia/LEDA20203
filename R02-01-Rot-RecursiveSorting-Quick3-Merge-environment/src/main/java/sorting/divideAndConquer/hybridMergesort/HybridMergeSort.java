@@ -34,6 +34,9 @@ public class HybridMergeSort<T extends Comparable<T>> extends
 
 	public void sort(T[] array, int leftIndex, int rightIndex) {
 		// TODO Auto-generated method stub
+		if(leftIndex < 0 || rightIndex > array.length -1 || array.length == 1) {
+			return;
+		}
 			if(leftIndex<rightIndex) {
 				MERGESORT_APPLICATIONS = 0;
 				INSERTIONSORT_APPLICATIONS = 0;

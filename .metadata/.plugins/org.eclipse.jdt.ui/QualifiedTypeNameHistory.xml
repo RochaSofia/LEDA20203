@@ -10,4 +10,6 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="sorting.divideAndConquer.QuickSort"/>
 <fullyQualifiedTypeName name="util.Util"/>
+<fullyQualifiedTypeName name="sorting.divideAndConquer.quicksort3.QuickSortMedianOfThree"/>
+<fullyQualifiedTypeName name="sorting.divideAndConquer.hybridMergesort.HybridMergeSort"/>
 </qualifiedTypeNameHistroy>

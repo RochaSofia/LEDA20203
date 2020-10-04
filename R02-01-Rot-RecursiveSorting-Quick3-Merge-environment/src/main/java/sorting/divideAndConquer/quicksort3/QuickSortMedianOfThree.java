@@ -22,6 +22,9 @@ public class QuickSortMedianOfThree<T extends Comparable<T>> extends
 
 	public void sort(T[] array, int leftIndex, int rightIndex) {
 		// TODO Auto-generated method stub
+		if(leftIndex < 0 || rightIndex > array.length -1 || array.length == 1) {
+			return;
+		}
 			if(leftIndex < rightIndex) {
 				int posicaoDoPivot = particiona(array,leftIndex,rightIndex);
 				sort(array,leftIndex,posicaoDoPivot - 1);
