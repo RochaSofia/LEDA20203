@@ -8,6 +8,7 @@ import org.junit.Test;
 
 import sorting.AbstractSorting;
 import sorting.linearSorting.CountingSort;
+import sorting.linearSorting.ExtendedCountingSort;
 
 public class StudentSortingTest {
 
@@ -39,7 +40,7 @@ public class StudentSortingTest {
 	private void getImplementation() {
 		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
 		// null
-		this.implementation = new CountingSort();
+		this.implementation = new ExtendedCountingSort();
 		//Assert.fail("Implementation not provided");
 	}
 
@@ -107,4 +108,20 @@ public class StudentSortingTest {
 	 * SEGUIR A ESTRUTURA DOS MÉTODOS DE TESTE ACIMA DESCRITOS, ORDENANDO APENAS
 	 * UMA PARTE DO ARRAY.
 	 */
+	@Test
+	public void testeParcialOrdenado() {
+		Integer [] array  = {0,1,2,3,4,5,8,6,8,9,7,10};
+		Integer[] vetorCopia = Arrays.copyOf(array,array.length);
+		Arrays.sort(vetorCopia);
+		this.implementation.sort(array,6,11);
+		Assert.assertArrayEquals(vetorCopia,array);
+	}
+	@Test
+	public void testeVazio() {
+		Integer [] array  = {};
+		Integer[] vetorCopia = Arrays.copyOf(array,array.length);
+		Arrays.sort(vetorCopia);
+		this.implementation.sort(array,6,11);
+		Assert.assertArrayEquals(vetorCopia,array);
+	}
 }

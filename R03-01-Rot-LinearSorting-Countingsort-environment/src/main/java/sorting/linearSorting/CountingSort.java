@@ -28,7 +28,7 @@ public class CountingSort extends AbstractSorting<Integer> {
 				
 			}
 			
-			for(int j = leftIndex + 1; j< cumulativa.length;j++) {
+			for(int j = 1; j< cumulativa.length;j++) {
 				
 				cumulativa[j] += cumulativa[j - 1];
 			}
@@ -44,7 +44,7 @@ public class CountingSort extends AbstractSorting<Integer> {
 			}
 			
 			for(int i= leftIndex; i<= rightIndex;i++){
-				array[i] = resultado[i];
+				array[i] = resultado[i - leftIndex];
 			}
 			
 		}

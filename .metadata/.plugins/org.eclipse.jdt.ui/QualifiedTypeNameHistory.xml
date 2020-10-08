@@ -7,9 +7,10 @@
 <fullyQualifiedTypeName name="sorting.variationsOfBubblesort.BidirectionalBubbleSort"/>
 <fullyQualifiedTypeName name="sorting.variationsOfSelectionsort.RecursiveSelectionSort"/>
 <fullyQualifiedTypeName name="sorting.divideAndConquer.MergeSort"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="sorting.divideAndConquer.QuickSort"/>
 <fullyQualifiedTypeName name="util.Util"/>
 <fullyQualifiedTypeName name="sorting.divideAndConquer.quicksort3.QuickSortMedianOfThree"/>
 <fullyQualifiedTypeName name="sorting.divideAndConquer.hybridMergesort.HybridMergeSort"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="sorting.linearSorting.CountingSort"/>
 </qualifiedTypeNameHistroy>

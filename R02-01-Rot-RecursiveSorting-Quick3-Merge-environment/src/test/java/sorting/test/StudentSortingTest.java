@@ -117,5 +117,13 @@ public class StudentSortingTest {
 		this.implementation.sort(array,6,11);
 		Assert.assertArrayEquals(vetorCopia,array);
 	}
+	@Test
+	public void testeVazio() {
+		Integer [] array  = {};
+		Integer[] vetorCopia = Arrays.copyOf(array,array.length);
+		Arrays.sort(vetorCopia);
+		this.implementation.sort(array,6,11);
+		Assert.assertArrayEquals(vetorCopia,array);
+	}
 	
 }
