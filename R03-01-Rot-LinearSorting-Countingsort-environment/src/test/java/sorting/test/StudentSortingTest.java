@@ -117,11 +117,63 @@ public class StudentSortingTest {
 		Assert.assertArrayEquals(vetorCopia,array);
 	}
 	@Test
+	public void testeParcialOrdenadoComeço() {
+		Integer [] array  = {9,4,5,2,3,2,8,10,11};
+		Integer[] vetorCopia = Arrays.copyOf(array,array.length);
+		Arrays.sort(vetorCopia);
+		this.implementation.sort(array,0,6);
+		Assert.assertArrayEquals(vetorCopia,array);
+	}
+	@Test
+	public void testeParcialOrdenadoMeio() {
+		Integer [] array  = {0,1,2,4,7,3,5,2,8,9};
+		Integer[] vetorCopia = Arrays.copyOf(array,array.length);
+		Arrays.sort(vetorCopia);
+		this.implementation.sort(array,2,7);
+		Assert.assertArrayEquals(vetorCopia,array);
+	}
+	@Test
 	public void testeVazio() {
 		Integer [] array  = {};
 		Integer[] vetorCopia = Arrays.copyOf(array,array.length);
 		Arrays.sort(vetorCopia);
 		this.implementation.sort(array,6,11);
+		Assert.assertArrayEquals(vetorCopia,array);
+	}
+	@Test
+	public void testeExtendedCountingComNegativo() {
+		/*esse teste nao passa no counting sort normal apenas no extended*/
+		Integer [] array  = {0,4,5,-3,4,2,1,-2,6};
+		Integer[] vetorCopia = Arrays.copyOf(array,array.length);
+		Arrays.sort(vetorCopia);
+		this.implementation.sort(array,0,8);
+		Assert.assertArrayEquals(vetorCopia,array);
+	}
+	@Test
+	public void testeExtendedCountingOrdenadoComeçoComNegativo() {
+		/*esse teste nao passa no counting sort normal apenas no extended*/
+		Integer [] array  = {-3,-2,0,3,2,-1,4,5,6};
+		Integer[] vetorCopia = Arrays.copyOf(array,array.length);
+		Arrays.sort(vetorCopia);
+		this.implementation.sort(array,2,5);
+		Assert.assertArrayEquals(vetorCopia,array);
+	}
+	@Test
+	public void testeExtendedCountingApenasNegativos() {
+		/*esse teste nao passa no counting sort normal apenas no extended*/
+		Integer [] array  = {-2,-5,-9,-11,-2,-1,-3,-4};
+		Integer[] vetorCopia = Arrays.copyOf(array,array.length);
+		Arrays.sort(vetorCopia);
+		this.implementation.sort(array,0,array.length-1);
+		Assert.assertArrayEquals(vetorCopia,array);
+	}
+	@Test
+	public void testeExtendedCountingNegativoseZero() {
+		/*esse teste nao passa no counting sort normal apenas no extended*/
+		Integer [] array  = {-2,0,-9,0,-2,-1,-3,-4};
+		Integer[] vetorCopia = Arrays.copyOf(array,array.length);
+		Arrays.sort(vetorCopia);
+		this.implementation.sort(array,0,array.length-1);
 		Assert.assertArrayEquals(vetorCopia,array);
 	}
 }

@@ -11,6 +11,7 @@
 <fullyQualifiedTypeName name="util.Util"/>
 <fullyQualifiedTypeName name="sorting.divideAndConquer.quicksort3.QuickSortMedianOfThree"/>
 <fullyQualifiedTypeName name="sorting.divideAndConquer.hybridMergesort.HybridMergeSort"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="sorting.linearSorting.CountingSort"/>
+<fullyQualifiedTypeName name="sorting.linearSorting.ExtendedCountingSort"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
