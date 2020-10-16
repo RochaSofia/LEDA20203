@@ -55,21 +55,22 @@ public class QuickSelect<T extends Comparable<T>> {
 	}
 	private T recursiveQuickSelect(T[] array,int k, int leftIndex, int rightIndex) {
 		
-		int pivotIndex = particiona(array,leftIndex,rightIndex );
+		
 		if(leftIndex >= 0 && rightIndex < array.length && leftIndex < rightIndex) {
-			
+			int pivotIndex = particiona(array,leftIndex,rightIndex );
 		if( k < pivotIndex + 1) {
-			return recursiveQuickSelect(array,k,leftIndex, rightIndex);
+			return recursiveQuickSelect(array,k,leftIndex, rightIndex - 1);
 		}else if(k > pivotIndex + 1) {
 			return recursiveQuickSelect(array,k,pivotIndex + 1, rightIndex);
 		}
-	}
 		return array[pivotIndex];
+	}
+		return array[k - 1];
 	}
 	private int particiona (T [] array, int inicio, int fim) {
 		
 		int meio = (inicio + fim)/2;
-		mediaDeTres(array,inicio,meio,fim);
+		mediaDeTres(array,inicio ,meio,fim );
 		T pivot = array[meio];
 		Util.swap(array,meio,fim-1);
 		int pivotIndex = fim - 1;
@@ -85,15 +86,13 @@ public class QuickSelect<T extends Comparable<T>> {
 		return pivotIndex;
 	}
 	
-	private void mediaDeTres(T[] array, int leftIndex, int meio, int rightIndex) {
-		if(array[leftIndex].compareTo(array[meio]) > 0) {
-			Util.swap(array,leftIndex, meio);
-		}
-		if(array[leftIndex].compareTo(array[rightIndex]) > 0) {
-			Util.swap(array, leftIndex, rightIndex);
-		}
-		if(array[meio].compareTo(array[rightIndex]) > 0) {
-			Util.swap(array,meio ,rightIndex );
-		}
-	}
+	private void mediaDeTres(T[] array, int leftIndex, int middleIndex, int rightIndex) {
+        if (array[leftIndex].compareTo(array[middleIndex]) > 0)
+            Util.swap(array, leftIndex, middleIndex);
+        if (array[leftIndex].compareTo(array[rightIndex]) > 0)
+            Util.swap(array, leftIndex, rightIndex);
+        if (array[middleIndex].compareTo(array[rightIndex]) > 0)
+            Util.swap(array, middleIndex, rightIndex);
+
+    }
 }
