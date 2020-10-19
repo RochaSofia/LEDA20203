@@ -9,17 +9,18 @@ public class FloorBinarySearchImpl implements Floor {
 		// TODO implement your code here
 		//throw new UnsupportedOperationException("Not implemented yet!");
 		if(array.length > 0 && array != null) {
-			quickSortM3(array,0,array.length);
+			quickSortM3(array,0,array.length - 1);
 			return floorRecursivo(array,x,null,0,array.length - 1);
 		}
-		return null;
+			return null;
+
 		
 		
 		
 	}
 	
 	private Integer floorRecursivo(Integer[] array, Integer x,Integer floor, int leftIndex, int rightIndex) {
-		if(leftIndex <= rightIndex && leftIndex >= 0 && rightIndex >0 && rightIndex < leftIndex) {
+		if(leftIndex <= rightIndex && leftIndex >= 0 && rightIndex < array.length) {
 			int meio = (rightIndex + leftIndex)/2;
 			if(array[meio].compareTo(x) == 0) {
 				return array[meio];
@@ -28,15 +29,16 @@ public class FloorBinarySearchImpl implements Floor {
 				return floorRecursivo(array,x,floor,leftIndex,meio -1 );
 		}
 			if(array[meio].compareTo(x) < 0) {
-				return floorRecursivo(array,x,floor,meio + 1,rightIndex );
+				return floorRecursivo(array,x,array[meio],meio + 1,rightIndex );
 		}
 		}
 		return floor;
 	}
 private void quickSortM3(Integer[] array, int leftIndex, int rightIndex) {
 		// TODO Auto-generated method stub
-		if(leftIndex < 0 || rightIndex > array.length -1 || array.length == 1) {
+		if(leftIndex < 0 || leftIndex >= array.length || rightIndex >= array.length || rightIndex < 0) {
 			return;
+			
 		}
 			if(leftIndex < rightIndex) {
 				int posicaoDoPivot = particiona(array,leftIndex,rightIndex);

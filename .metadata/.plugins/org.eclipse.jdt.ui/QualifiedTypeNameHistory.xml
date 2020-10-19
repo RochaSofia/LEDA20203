@@ -12,6 +12,10 @@
 <fullyQualifiedTypeName name="sorting.divideAndConquer.hybridMergesort.HybridMergeSort"/>
 <fullyQualifiedTypeName name="sorting.linearSorting.CountingSort"/>
 <fullyQualifiedTypeName name="sorting.linearSorting.ExtendedCountingSort"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="util.Util"/>
+<fullyQualifiedTypeName name="orderStatistic.KLargestOrderStatisticsImpl"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="problems.FloorBinarySearchImpl"/>
+<fullyQualifiedTypeName name="problems.Floor"/>
 </qualifiedTypeNameHistroy>
