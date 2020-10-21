@@ -41,11 +41,13 @@ public class StackImpl<T> implements Stack<T> {
 	@Override
 	public void push(T element) throws StackOverflowException {
 		// TODO Auto-generated method stub
-		if(array.length -1 == top) {
-			throw new StackOverflowException();
-		}else {
-			array[top + 1] = element;
-			top++;
+		if(element != null) {
+			if(array.length -1 == top) {
+				throw new StackOverflowException();
+			}else {
+				array[top + 1] = element;
+				top++;
+			}
 		}
 
 	}
@@ -55,6 +57,9 @@ public class StackImpl<T> implements Stack<T> {
 		// TODO Auto-generated method stub
 		if(!isEmpty()) {
 			top = top-1;
+			if(isEmpty()) {
+				return null;
+			}
 			return array[top + 1];
 		}
 		 throw new StackUnderflowException();

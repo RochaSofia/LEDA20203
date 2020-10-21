@@ -1,5 +1,9 @@
 package adt.stack;
-
+/*
+ * Os testes de lancamento de excecoes foram movidos para o arquivo
+ * 'ExceptionStackTest' para melhorar a vizualizacao e entendimento
+ * de quais testes estao sendo executados com sucesso.
+ */
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -13,6 +17,7 @@ public class StudentStackTest {
 	public Stack<Integer> stack1;
 	public Stack<Integer> stack2;
 	public Stack<Integer> stack3;
+	public Stack<Integer> stack4;
 
 	@Before
 	public void setUp() throws StackOverflowException {
@@ -27,7 +32,9 @@ public class StudentStackTest {
 		// Pilha com 2 elementos de tamanho 2, pilha cheia.
 		stack2.push(1);
 		stack2.push(2);
-
+		//adiciona 1 elemento a pilha 04
+		stack4.push(2);
+		
 	}
 
 	private void getImplementations() {
@@ -35,6 +42,7 @@ public class StudentStackTest {
 		stack1 = new StackImpl(4);
 		stack2 = new StackImpl(6);
 		stack3 = new StackImpl(1);
+		stack4 = new StackImpl(1);
 	}
 
 	// MÉTODOS DE TESTE
@@ -81,6 +89,15 @@ public class StudentStackTest {
 	public void testPop() {
 		try {
 			assertEquals(new Integer(3), stack1.pop());
+		} catch (StackUnderflowException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	@Test
+	public void testPopRetornaNull() {
+		try {
+			assertEquals(null, stack4.pop());
 		} catch (StackUnderflowException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
