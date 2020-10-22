@@ -23,21 +23,15 @@ public class QueueImpl<T> implements Queue<T> {
 	@Override
 	public boolean isEmpty() {
 		// TODO Auto-generated method stub
-		if(tail == -1) {
-			return true;
-		}else {
-			return false;
-		}
+		return tail == -1;
 		//throw new UnsupportedOperationException("Not implemented yet!");
 	}
 
 	@Override
 	public boolean isFull() {
 		// TODO Auto-generated method stub
-		if(tail == array.length -1) {
-			return true;
-		}
-		return false;
+		return tail == array.length -1 ;
+
 		//throw new UnsupportedOperationException("Not implemented yet!");
 	}
 
