@@ -52,6 +52,7 @@ public class StudentQueueTest {
 	@Test
 	public void testIsFull() {
 		assertTrue(queue2.isFull());
+		assertFalse(queue1.isFull());
 	}
 
 	@Test
