@@ -30,7 +30,7 @@ public class QueueImpl<T> implements Queue<T> {
 	@Override
 	public boolean isFull() {
 		// TODO Auto-generated method stub
-		return tail == array.length -1 ;
+		return tail == (array.length -1) ;
 
 		//throw new UnsupportedOperationException("Not implemented yet!");
 	}

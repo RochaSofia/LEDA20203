@@ -16,31 +16,74 @@ public class QueueUsingStack<T> implements Queue<T> {
 	@Override
 	public void enqueue(T element) throws QueueOverflowException {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if(stack1.isFull()) {
+			throw new QueueOverflowException();
+		}else {
+			try {
+				stack1.push(element);
+			}catch(Exception e) {
+				e.printStackTrace();
+			}
+		}
+		//throw new UnsupportedOperationException("Not implemented yet!");
 	}
 
 	@Override
 	public T dequeue() throws QueueUnderflowException {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		T elemento = null;
+		if(stack1.isEmpty()) {
+			 throw new QueueUnderflowException();
+		}else {
+			transfere(stack1,stack2);
+			try {
+				elemento = stack2.pop();
+			}catch(Exception e) {
+				e.printStackTrace();
+			}
+
+			transfere(stack2,stack1);
+		}
+		return elemento;
+		//throw new UnsupportedOperationException("Not implemented yet!");
 	}
 
 	@Override
 	public T head() {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		T head = null;
+		if(stack1.isEmpty() ) {
+			return null;
+		}else {
+			transfere(stack1,stack2);
+			head = stack2.top();
+			transfere(stack2,stack1);
+		}
+		return head;
+		//throw new UnsupportedOperationException("Not implemented yet!");
 	}
 
 	@Override
 	public boolean isEmpty() {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		return stack1.isEmpty();
+		//throw new UnsupportedOperationException("Not implemented yet!");
 	}
 
 	@Override
 	public boolean isFull() {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		return stack1.isFull();
+		//throw new UnsupportedOperationException("Not implemented yet!");
+	}
+	private void transfere(Stack<T> stack1, Stack<T> stack2) {
+		try {
+		while(stack1.isEmpty() == false) {
+			stack2.push(stack1.pop());
+		}
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 }

@@ -57,9 +57,6 @@ public class StackImpl<T> implements Stack<T> {
 		// TODO Auto-generated method stub
 		if(!isEmpty()) {
 			top = top-1;
-			if(isEmpty()) {
-				return null;
-			}
 			return array[top + 1];
 		}
 		 throw new StackUnderflowException();

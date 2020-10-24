@@ -10,10 +10,15 @@ import org.junit.Test;
 
 public class StudentQueueTest {
 
-	public CircularQueue<Integer> queue1;
-	public CircularQueue<Integer> queue2;
-	public CircularQueue<Integer> queue3;
-
+	public QueueUsingStack<Integer> queue1;
+	public QueueUsingStack<Integer> queue2;
+	public QueueUsingStack<Integer> queueVazia;
+	public QueueUsingStack<Integer> queue4;
+	public QueueUsingStack<Integer> queueCriadaVazia;
+	public CircularQueue<Integer> queueTamanhoImparCheia;
+	public CircularQueue<Integer> queueTamanhoImpar;
+	public CircularQueue<Integer> queueTamanhoParCheia;
+	public CircularQueue<Integer> queueTamanhoPar;
 	@Before
 	public void setUp() throws QueueOverflowException {
 
@@ -27,14 +32,22 @@ public class StudentQueueTest {
 		// Fila com 2 elementos de tamanho 2. Fila cheia.
 		queue2.enqueue(1);
 		queue2.enqueue(2);
+		//
+		queue4.enqueue(1);
 
 	}
 
 	private void getImplementations() {
 		// TODO O aluno deve ajustar aqui para instanciar sua implementação
-		queue1 = new CircularQueue(4);
-		queue2 = new CircularQueue(2);
-		queue3 = new CircularQueue(2);
+		queue1 = new QueueUsingStack(4);
+		queue2 = new QueueUsingStack(2);
+		queueVazia = new QueueUsingStack(2);
+		queue4 = new QueueUsingStack(1);
+		queueCriadaVazia = new QueueUsingStack(0);
+		queueTamanhoImparCheia  = new CircularQueue(5);
+		queueTamanhoImpar = new CircularQueue(7);
+		queueTamanhoParCheia = new CircularQueue(4);
+		queueTamanhoPar  = new CircularQueue(6);
 	}
 
 	// MÉTODOS DE TESTE
@@ -44,15 +57,36 @@ public class StudentQueueTest {
 	}
 
 	@Test
-	public void testIsEmpty() {
+	public void testIsEmptyFalse() {
 		assertFalse(queue1.isEmpty());
-		assertTrue(queue3.isEmpty());
+	}
+	@Test
+	public void testIsEmptyTrue() {
+		assertTrue(queueVazia.isEmpty());
+	}
+	@Test
+	public void testIsEmptyFalseQueueTamanho0() {
+		assertFalse(queueCriadaVazia.isEmpty());
+	}
+	@Test
+	public void testIsEmptyTruequeueCriadaVazia() {
+		assertTrue(queueCriadaVazia.isEmpty());
 	}
 
 	@Test
 	public void testIsFull() {
 		assertTrue(queue2.isFull());
 		//assertFalse(queue1.isFull());
+	}
+	@Test
+	public void testIsFullTest() {
+		assertTrue(queue4.isFull());
+		//assertFalse(queue1.isFull());
+	}
+	@Test
+	public void testIsEmptyTest() {
+		assertFalse(queue4.isEmpty());
+		//assertTrue(queue3.isEmpty());
 	}
 
 	@Test
