@@ -1,21 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="sorting.simpleSorting.InsertionSort"/>
-<fullyQualifiedTypeName name="sorting.simpleSorting.SelectionSort"/>
-<fullyQualifiedTypeName name="sorting.simpleSorting.BubbleSort"/>
-<fullyQualifiedTypeName name="sorting.variationsOfBubblesort.RecursiveBubbleSort"/>
-<fullyQualifiedTypeName name="sorting.variationsOfBubblesort.BidirectionalBubbleSort"/>
-<fullyQualifiedTypeName name="sorting.variationsOfSelectionsort.RecursiveSelectionSort"/>
-<fullyQualifiedTypeName name="sorting.divideAndConquer.MergeSort"/>
-<fullyQualifiedTypeName name="sorting.divideAndConquer.QuickSort"/>
-<fullyQualifiedTypeName name="sorting.divideAndConquer.quicksort3.QuickSortMedianOfThree"/>
-<fullyQualifiedTypeName name="sorting.divideAndConquer.hybridMergesort.HybridMergeSort"/>
-<fullyQualifiedTypeName name="sorting.linearSorting.CountingSort"/>
-<fullyQualifiedTypeName name="sorting.linearSorting.ExtendedCountingSort"/>
-<fullyQualifiedTypeName name="util.Util"/>
-<fullyQualifiedTypeName name="orderStatistic.KLargestOrderStatisticsImpl"/>
-<fullyQualifiedTypeName name="junit.framework.Assert"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="problems.FloorBinarySearchImpl"/>
-<fullyQualifiedTypeName name="problems.Floor"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>

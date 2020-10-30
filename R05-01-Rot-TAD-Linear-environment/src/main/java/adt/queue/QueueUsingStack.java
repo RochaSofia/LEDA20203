@@ -2,6 +2,8 @@ package adt.queue;
 
 import adt.stack.Stack;
 import adt.stack.StackImpl;
+import adt.stack.StackOverflowException;
+import adt.stack.StackUnderflowException;
 
 public class QueueUsingStack<T> implements Queue<T> {
 
@@ -21,8 +23,8 @@ public class QueueUsingStack<T> implements Queue<T> {
 		}else {
 			try {
 				stack1.push(element);
-			}catch(Exception e) {
-				e.printStackTrace();
+			}catch(StackOverflowException e) {
+				throw new QueueOverflowException();
 			}
 		}
 		//throw new UnsupportedOperationException("Not implemented yet!");
@@ -38,8 +40,8 @@ public class QueueUsingStack<T> implements Queue<T> {
 			transfere(stack1,stack2);
 			try {
 				elemento = stack2.pop();
-			}catch(Exception e) {
-				e.printStackTrace();
+			}catch(StackUnderflowException e) {
+				throw new QueueUnderflowException();
 			}
 
 			transfere(stack2,stack1);
@@ -82,7 +84,6 @@ public class QueueUsingStack<T> implements Queue<T> {
 			stack2.push(stack1.pop());
 		}
 		}catch(Exception e) {
-			e.printStackTrace();
 		}
 	}
 

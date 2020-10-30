@@ -27,3 +27,13 @@
   <level>FINE</level>
   <message>File 119110702-RICARDO ADLEY DA SILVA SENA.zip was received. It was sent by RICARDO ADLEY DA SILVA SENA from IP 192.168.150.145 at 23-10-2020 20*31*51</message>
 </record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-25T11:41:17.943-0300</date>
+  <logger>RICARDO ADLEY DA SILVA SENA</logger>
+  <level>FINE</level>
+  <message>File 119110702-RICARDO ADLEY DA SILVA SENA.zip was received. It was sent by RICARDO ADLEY DA SILVA SENA from IP 192.168.150.145 at 25-10-2020 11*41*17</message>
+</record>
