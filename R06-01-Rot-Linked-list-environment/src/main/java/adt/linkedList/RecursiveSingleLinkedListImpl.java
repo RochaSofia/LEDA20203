@@ -13,15 +13,26 @@ public class RecursiveSingleLinkedListImpl<T> implements LinkedList<T> {
 	@Override
 	public boolean isEmpty() {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		return this.data == null;
 	}
 
 	@Override
 	public int size() {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if(isEmpty()) {
+			return 0;
+		}else {
+			int contador = 1;
+			RecursiveSingleLinkedListImpl<T> aux = this.next;
+			return recursiveSize(aux,contador);
+		}
 	}
-
+	private int recursiveSize(RecursiveSingleLinkedListImpl<T> aux, int contador) {
+			if(aux.getNext() == null) {
+				return contador;
+			}
+			return recursiveSize(aux.getNext(),contador + 1);
+		}
 	@Override
 	public T search(T element) {
 		// TODO Auto-generated method stub
@@ -31,13 +42,50 @@ public class RecursiveSingleLinkedListImpl<T> implements LinkedList<T> {
 	@Override
 	public void insert(T element) {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
-	}
+		if(isEmpty()) {
+			setData(element);
+			setNext(new RecursiveSingleLinkedListImpl<T>());
+		}else {
+			RecursiveSingleLinkedListImpl<T> aux = this.next;
+			recursiveInsert(aux,element);
+		}
 
+	}
+	
+	private void recursiveInsert(RecursiveSingleLinkedListImpl<T> aux, T element) {
+		if(aux.getData() == null) {
+			aux.setData(element);
+			aux.setNext(new RecursiveSingleLinkedListImpl<T>());
+			return;
+		}
+		recursiveInsert(aux.getNext(),element);
+		
+		
+	}
+	//remove esta com erro
 	@Override
 	public void remove(T element) {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if( element != null && !isEmpty()) {
+			RecursiveSingleLinkedListImpl<T> aux = this.next;
+			if(getData().equals(element)) {
+				setNext(getNext());
+			}else {
+				recursiveRemove(aux,element);
+			}
+			
+		}
+		
+	}
+	private void recursiveRemove(RecursiveSingleLinkedListImpl<T> aux, T element) {
+		if(aux.getNext().getData() == null ) {
+			return;
+		}
+		if(aux.getNext().getData().equals(element)) {
+			aux.setNext(aux.getNext().getNext());
+			return;
+		}
+		recursiveRemove(aux.getNext(),element);
 	}
 
 	@Override
