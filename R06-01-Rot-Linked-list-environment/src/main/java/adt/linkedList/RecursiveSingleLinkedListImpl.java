@@ -33,21 +33,7 @@ public class RecursiveSingleLinkedListImpl<T> implements LinkedList<T> {
 			}
 			return recursiveSize(aux.getNext(),contador + 1);
 		}
-	/*
-	 * T retorno = null;
-		if(element != null) {
-			SingleLinkedListNode<T> aux = this.head;
-			while(!aux.isNIL()) {
-				if(aux.getData().equals(element)) {
-					retorno = aux.getData();
-				}
-					aux = aux.getNext();
-				
-		      }
-			}
-		return retorno;
-		}
-	 */
+
 	@Override
 	public T search(T element) {
 		// TODO Auto-generated method stub
@@ -97,7 +83,6 @@ public class RecursiveSingleLinkedListImpl<T> implements LinkedList<T> {
 		
 		
 	}
-	//remove esta com erro
 	@Override
 	public void remove(T element) {
 		// TODO Auto-generated method stub

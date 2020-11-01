@@ -4,9 +4,11 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class StudentDoubleLinkedListTest extends StudentLinkedListTest {
+public class StudentDoubleLinkedListTest {
 
 	private DoubleLinkedList<Integer> lista3;
+	private DoubleLinkedList<Integer> lista2;
+	private DoubleLinkedList<Integer> lista1;
 
 	@Before
 	public void setUp() throws Exception {

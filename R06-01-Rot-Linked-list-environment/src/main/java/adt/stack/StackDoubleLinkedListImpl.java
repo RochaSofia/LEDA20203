@@ -16,32 +16,55 @@ public class StackDoubleLinkedListImpl<T> implements Stack<T> {
 	@Override
 	public void push(T element) throws StackOverflowException {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented!");
+		if(isFull()) {
+			throw new StackOverflowException();
+		}
+		if(element != null) {
+			this.top.insertFirst(element);
+		}
+		
+
+		//throw new UnsupportedOperationException("Not implemented!");
 
 	}
 
 	@Override
 	public T pop() throws StackUnderflowException {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented!");
+		if(isEmpty()) {
+			throw new StackUnderflowException();
+		}
+		T[] retorno = this.top.toArray();
+		T saida =  retorno[0];
+		this.top.removeLast();
+		return saida;
+
+		//throw new UnsupportedOperationException("Not implemented!");
 	}
 
 	@Override
 	public T top() {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented!");
+		if(isEmpty()) {
+			return null;
+		}
+		T[] retorno = this.top.toArray();
+		return retorno[0];
+		//throw new UnsupportedOperationException("Not implemented!");
 	}
 
 	@Override
 	public boolean isEmpty() {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented!");
+		return this.top.isEmpty();
+		//throw new UnsupportedOperationException("Not implemented!");
 	}
 
 	@Override
 	public boolean isFull() {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented!");
+		return top.size() == size;
+		//throw new UnsupportedOperationException("Not implemented!");
 	}
 
 }
