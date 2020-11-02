@@ -60,7 +60,7 @@ public class StudentStackTest {
 			stack1.push(new Integer(5));
 		} catch (StackOverflowException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 	}
 
@@ -83,9 +83,6 @@ public class StudentStackTest {
 	@Test(expected = StackUnderflowException.class)
 	public void testPopComErro() throws StackUnderflowException {
 		assertEquals(new Integer(3), stack1.pop());
-		assertEquals(new Integer(2), stack1.pop());
-		assertEquals(new Integer(1), stack1.pop());
-		assertEquals(new Integer(0), stack1.pop());
 		// levanta excecao apenas se
 													// stack1 for vazia
 	}

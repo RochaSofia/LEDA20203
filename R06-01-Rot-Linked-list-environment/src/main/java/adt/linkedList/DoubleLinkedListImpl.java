@@ -74,7 +74,7 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 		// TODO Auto-generated method stub
 		if(!this.isEmpty()) {
 			this.setHead(this.getHead().getNext());
-			if(this.getHead().getNext().isNIL()) {
+			if(this.getHead().isNIL()) {
 				if(this.getHead() instanceof DoubleLinkedListNode<?>) {
 					setLast((DoubleLinkedListNode<T>) this.getHead());
 				}
@@ -89,10 +89,10 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
         
         if (this.getHead().equals(this.getLast())) {
             this.setLast(new DoubleLinkedListNode<T>());
-            this.setHead(getLast());
+            this.setHead(this.getLast());
         } else {
                 this.getLast().getPrevious().setNext(new DoubleLinkedListNode<T>());
-                this.setLast(getLast().getPrevious());
+                this.setLast(this.getLast().getPrevious());
 
         }
 		//throw new UnsupportedOperationException("Not implemented yet!");

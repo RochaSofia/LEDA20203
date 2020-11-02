@@ -34,10 +34,9 @@ public class StackDoubleLinkedListImpl<T> implements Stack<T> {
 		if(isEmpty()) {
 			throw new StackUnderflowException();
 		}
-		T[] retorno = this.top.toArray();
-		T saida =  retorno[0];
-		this.top.removeLast();
-		return saida;
+			T retorno = top();
+		top.removeLast();
+		return retorno;
 
 		//throw new UnsupportedOperationException("Not implemented!");
 	}
