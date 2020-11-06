@@ -75,8 +75,9 @@ public class HashtableClosedAddressImpl<T> extends
 			}else {
 				COLLISIONS++;
 			}
-			((LinkedList<T>) this.table[hash]).add(element);
-			
+			if(this.table[hash] instanceof LinkedList<?>) {
+				((LinkedList<T>) this.table[hash]).add(element);
+			}
 			elements++;
 		}
 
@@ -86,36 +87,26 @@ public class HashtableClosedAddressImpl<T> extends
 	@Override
 	public void remove(T element) {
 		// TODO Auto-generated method stub
-		if(element != null) {
+		if(element != null && !isEmpty()) {
 			if(search(element) != null) {
 				int hash = calculaHash(element);
-				LinkedList<T> lista = (LinkedList<T>) this.table[hash];
-				for(T e : lista) {
-					if(e.equals(element)) {
-						//e se tiver mais de um elemento nesse hash?
-						this.table[hash] = new LinkedList<T>();
-						elements--;
-					}
+				((LinkedList<T>) this.table[hash]).remove(element);
+					elements--;
+				}
 			}
 		}
-		//throw new UnsupportedOperationException("Not implemented yet!");
-	}
-	}
 
 	@Override
 	//falta a pesquisa dentro da lista (acho)
 	public T search(T element) {
 		// TODO Auto-generated method stub
 		T retorno = null;
-		if(element != null) {
+		if(element != null && !isEmpty()) {
 			int hash = calculaHash(element);
 			if(this.table[hash] != null) {
 				LinkedList<T> lista = (LinkedList<T>) this.table[hash];
-				//sera esse for a melhor opção ?
-				for(T e : lista) {
-					if(e.equals(element)) {
-						retorno = element;
-					}
+				if(lista.contains(element)) {
+					retorno = element;
 				}
 			}
 	}
@@ -126,10 +117,14 @@ public class HashtableClosedAddressImpl<T> extends
 	public int indexOf(T element) {
 		// TODO Auto-generated method stub
 		int retorno = -1;
-		if(element!= null) {
-			if(search(element) != null) {
-				retorno = calculaHash(element);
-			}			
+		if(element!= null && !isEmpty() ) {
+			int hash = calculaHash(element);
+			if(this.table[hash] != null) {
+				LinkedList<T> lista = (LinkedList<T>) this.table[hash];
+				if(lista.contains(element)) {
+					retorno = hash;
+				}
+			}	
 		}
 		return retorno;
 	}

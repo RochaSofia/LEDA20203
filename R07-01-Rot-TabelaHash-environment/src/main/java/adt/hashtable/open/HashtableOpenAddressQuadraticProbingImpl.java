@@ -16,24 +16,64 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
 	@Override
 	public void insert(T element) {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+	if(element != null) {
+			if(isFull()) {
+				throw new HashtableOverflowException();
+			}
+			if(search(element) == null) {
+				int cont = 0;
+				int hash = calculaHash(element,cont);
+				while(this.table[hash] != null && cont < this.table.length && !this.table[hash].toString().equals("D")) {
+					COLLISIONS++;
+					cont++;
+					hash =  calculaHash(element,cont);
+				}
+				
+				//insere
+				this.table[hash] = element;
+				elements++;
+			}
+	}
 	}
 
 	@Override
 	public void remove(T element) {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if(element != null && !isEmpty()) {
+			if(indexOf(element) != -1) {
+				this.table[indexOf(element)] = new DELETED();
+				elements--;
+			}
+		}
 	}
 
 	@Override
 	public T search(T element) {
 		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		T retorno = null;
+		if(element != null && !isEmpty()) {
+			if(indexOf(element) != -1) {
+				retorno = element;
+			}
+		}
+		return retorno;
 	}
 
 	@Override
 	public int indexOf(T element) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		int retorno = -1;
+		int cont = 0;
+		int hash = calculaHash( element,cont);
+		while(this.table[hash] != null && cont < this.table.length) {
+			if(this.table[hash].equals(element)) {
+				return hash;
+			}
+			cont++;
+			hash =  calculaHash( element,cont);
+		}
+		return retorno;
+	}
+	private int calculaHash(T element, int prob) {
+		return  ((HashFunctionQuadraticProbing<T>) this.hashFunction).hash(element,prob);
 	}
 }
