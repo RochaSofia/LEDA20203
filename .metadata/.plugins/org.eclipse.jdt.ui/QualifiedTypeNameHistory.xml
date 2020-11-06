@@ -2,4 +2,7 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="adt.linkedList.StudentLinkedListTest"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="util.Util"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="adt.hashtable.hashfunction.HashFunctionClosedAddress"/>
 </qualifiedTypeNameHistroy>

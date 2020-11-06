@@ -960,3 +960,572 @@ Caused by: java.lang.Exception: Resource '/R05-01-Rot-TAD-Linear-environment/pom
 2020-11-02 00:23:03,248 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R06-01-Rot-Linked-list-environment\src\main\resources
 2020-11-02 00:23:03,250 [Worker-126: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-11-02 00:23:03,251 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R06-01-Rot-Linked-list-environment\src\test\resources
+2020-11-02 10:46:55,681 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-02 10:46:55,971 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R06-01-Rot-Linked-list-environment\src\main\resources
+2020-11-02 10:46:55,987 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-02 10:46:55,987 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R06-01-Rot-Linked-list-environment\src\test\resources
+2020-11-04 11:08:24,239 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-04 11:08:24,278 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R06-01-Rot-Linked-list-environment\src\main\resources
+2020-11-04 11:08:24,286 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-04 11:08:24,289 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R06-01-Rot-Linked-list-environment\src\test\resources
+2020-11-04 11:11:41,080 [Worker-15: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-11-04 11:11:55,922 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentDoubleLinkedListTest.getImplementations references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentDoubleLinkedListTest.getImplementations references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:55,972 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentDoubleLinkedListTest.getImplementations references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentDoubleLinkedListTest.getImplementations references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:55,986 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentDoubleLinkedListTest.getImplementations references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentDoubleLinkedListTest.getImplementations references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2130) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:374) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:257) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:227) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:185) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:55,989 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentDoubleLinkedListTest references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentDoubleLinkedListTest references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:55,994 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentDoubleLinkedListTest references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentDoubleLinkedListTest references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:56,007 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentDoubleLinkedListTest references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentDoubleLinkedListTest references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2130) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:374) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:257) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:227) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:185) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:56,010 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentLinkedListTest references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentLinkedListTest references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:56,013 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentLinkedListTest references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentLinkedListTest references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:56,022 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentLinkedListTest references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentLinkedListTest references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2130) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:374) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:257) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:227) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:185) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:56,026 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentQueueTest (1) references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentQueueTest (1) references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:56,029 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentQueueTest (1) references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentQueueTest (1) references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:56,041 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentQueueTest (1) references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentQueueTest (1) references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2130) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:374) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:257) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:227) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:185) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:56,047 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentStackTest references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentStackTest references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:56,051 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentStackTest references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentStackTest references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:11:56,063 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration StudentStackTest references closed project R06-01-Rot-Linked-list-environment
+org.eclipse.core.runtime.CoreException: Launch configuration StudentStackTest references closed project R06-01-Rot-Linked-list-environment
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715) ~[org.eclipse.jdt.launching_3.17.100.v20200526-1503.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.12.0.v20200504-1602.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2130) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:374) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:257) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:227) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:185) [org.eclipse.debug.core_3.15.100.v20200514-0816.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72) [org.eclipse.m2e.jdt_1.16.0.20200610-1500.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373) ~[org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84) [org.eclipse.m2e.core_1.16.0.20200605-0817.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.800.v20200421-0950.jar:na]
+2020-11-04 11:12:16,781 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.ufcg.ccc:submission:1.0 @ C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\pom.xml.
+2020-11-04 11:12:18,191 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /R07-01-Rot-TabelaHash-environment/src/main/java
+2020-11-04 11:12:18,193 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /R07-01-Rot-TabelaHash-environment/src/test/java
+2020-11-04 11:12:18,951 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2020-11-04 11:12:23,279 [Worker-17: Discover lifecycle mappings] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/NT098765/AppData/Local/Temp/RemoteBundleDiscoveryStrategy1420514135802684677.tmp/org.eclipse.m2e.discovery.oss_catalog_1.13.jar_4669119983204864132.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-wtp.xml
+2020-11-04 11:12:23,280 [Worker-17: Discover lifecycle mappings] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-wtp does not contain lifecycle mapping metadata
+2020-11-04 11:12:23,283 [Worker-17: Discover lifecycle mappings] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/NT098765/AppData/Local/Temp/RemoteBundleDiscoveryStrategy1420514135802684677.tmp/org.eclipse.m2e.discovery.oss_catalog_1.13.jar_4669119983204864132.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-egit.xml
+2020-11-04 11:12:23,284 [Worker-17: Discover lifecycle mappings] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+2020-11-04 11:12:23,287 [Worker-17: Discover lifecycle mappings] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/NT098765/AppData/Local/Temp/RemoteBundleDiscoveryStrategy1420514135802684677.tmp/org.eclipse.m2e.discovery.oss_catalog_1.13.jar_4669119983204864132.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive.xml
+2020-11-04 11:12:23,287 [Worker-17: Discover lifecycle mappings] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+2020-11-04 11:12:23,358 [Worker-17: Discover lifecycle mappings] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/NT098765/AppData/Local/Temp/RemoteBundleDiscoveryStrategy1420514135802684677.tmp/org.eclipse.m2e.discovery.oss_catalog_1.13.jar_4669119983204864132.jar!/lifecycle%2Forg.eclipse.m2e.discovery.extras.m2e-chromatic.xml
+2020-11-04 11:12:23,361 [Worker-17: Discover lifecycle mappings] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.extras.m2e-chromatic does not contain lifecycle mapping metadata
+2020-11-04 11:12:26,192 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-04 11:12:26,195 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-04 11:12:26,199 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-04 11:12:26,201 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-04 11:14:18,904 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.ufcg.ccc:submission:1.0 @ C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\pom.xml.
+2020-11-04 11:14:19,500 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-04 11:14:19,503 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-04 11:14:19,506 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-04 11:14:19,509 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-04 18:20:55,811 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-04 18:20:55,842 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-04 18:20:55,846 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-04 18:20:55,849 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-04 21:56:12,383 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-04 21:56:12,415 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-04 21:56:12,430 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-04 21:56:12,430 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-04 22:03:04,417 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-11-04 22:13:52,323 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-04 22:13:52,327 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-04 22:13:52,329 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-04 22:13:52,331 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 08:45:02,701 [Worker-13: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-11-05 08:48:44,764 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 08:48:44,799 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 08:48:44,812 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 08:48:44,816 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 09:14:25,561 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 09:14:25,565 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 09:14:25,569 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 09:14:25,571 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 11:44:29,637 [Worker-58: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 11:44:29,642 [Worker-58: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 11:44:29,644 [Worker-58: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 11:44:29,646 [Worker-58: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 11:49:11,401 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 11:49:11,405 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 11:49:11,408 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 11:49:11,411 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 12:08:21,634 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:08:21,638 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 12:08:21,640 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:08:21,643 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 12:21:35,207 [Worker-70: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:21:35,210 [Worker-70: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 12:21:35,214 [Worker-70: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:21:35,217 [Worker-70: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 12:23:30,359 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:23:30,361 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 12:23:30,365 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:23:30,368 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 12:24:11,218 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:24:11,219 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 12:24:11,225 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:24:11,227 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 12:29:19,141 [Worker-71: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:29:19,144 [Worker-71: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 12:29:19,146 [Worker-71: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:29:19,149 [Worker-71: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 12:36:49,142 [Worker-76: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:36:49,145 [Worker-76: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 12:36:49,147 [Worker-76: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:36:49,153 [Worker-76: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 12:38:45,279 [Worker-71: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:38:45,283 [Worker-71: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 12:38:45,287 [Worker-71: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:38:45,289 [Worker-71: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 12:39:44,533 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:39:44,534 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 12:39:44,536 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:39:44,538 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 12:41:40,663 [Worker-78: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:41:40,665 [Worker-78: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 12:41:40,667 [Worker-78: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:41:40,669 [Worker-78: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 12:42:11,316 [Worker-76: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:42:11,321 [Worker-76: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 12:42:11,324 [Worker-76: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:42:11,326 [Worker-76: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 12:56:02,778 [Worker-83: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:56:02,781 [Worker-83: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 12:56:02,784 [Worker-83: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 12:56:02,787 [Worker-83: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 13:03:59,718 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:03:59,720 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 13:03:59,725 [Worker-88: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:03:59,727 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 13:10:22,451 [Worker-91: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:10:22,453 [Worker-91: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 13:10:22,455 [Worker-91: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:10:22,458 [Worker-91: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 13:28:15,048 [Worker-97: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:28:15,050 [Worker-97: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 13:28:15,052 [Worker-97: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:28:15,054 [Worker-97: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 13:33:32,574 [Worker-99: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:33:32,576 [Worker-99: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 13:33:32,577 [Worker-99: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:33:32,579 [Worker-99: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 13:34:08,019 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:34:08,021 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 13:34:08,023 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:34:08,025 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 13:34:12,096 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:34:12,097 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 13:34:12,099 [Worker-97: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:34:12,100 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 13:43:12,480 [Worker-98: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:43:12,482 [Worker-98: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 13:43:12,485 [Worker-98: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:43:12,487 [Worker-98: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 13:43:46,981 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:43:46,983 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 13:43:46,984 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:43:46,986 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 13:49:13,160 [Worker-106: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:49:13,162 [Worker-106: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 13:49:13,166 [Worker-106: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:49:13,168 [Worker-106: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 13:53:48,794 [Worker-109: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:53:48,797 [Worker-109: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 13:53:48,799 [Worker-109: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:53:48,800 [Worker-109: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 13:54:50,024 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:54:50,026 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 13:54:50,028 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:54:50,030 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 13:55:23,921 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:55:23,923 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 13:55:23,924 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:55:23,926 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 13:59:47,524 [Worker-113: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:59:47,527 [Worker-113: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 13:59:47,529 [Worker-113: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 13:59:47,531 [Worker-113: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 14:09:25,135 [Worker-119: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:09:25,138 [Worker-119: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 14:09:25,139 [Worker-119: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:09:25,141 [Worker-119: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 14:14:27,220 [Worker-121: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:14:27,223 [Worker-121: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 14:14:27,225 [Worker-121: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:14:27,227 [Worker-121: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 14:15:34,273 [Worker-117: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:15:34,275 [Worker-117: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 14:15:34,277 [Worker-117: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:15:34,279 [Worker-117: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 14:16:48,495 [Worker-120: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:16:48,500 [Worker-120: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 14:16:48,503 [Worker-120: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:16:48,506 [Worker-120: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 14:18:43,604 [Worker-122: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:18:43,607 [Worker-122: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 14:18:43,610 [Worker-122: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:18:43,613 [Worker-122: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 14:19:49,701 [Worker-117: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:19:49,703 [Worker-117: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 14:19:49,706 [Worker-117: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:19:49,709 [Worker-117: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 14:21:33,659 [Worker-125: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:21:33,661 [Worker-125: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 14:21:33,663 [Worker-125: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:21:33,666 [Worker-125: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 14:22:57,634 [Worker-128: Launching StudentTestHashtableClosedAddressMultiplicationMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:22:57,665 [Worker-128: Launching StudentTestHashtableClosedAddressMultiplicationMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 14:22:57,667 [Worker-128: Launching StudentTestHashtableClosedAddressMultiplicationMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:22:57,670 [Worker-128: Launching StudentTestHashtableClosedAddressMultiplicationMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 14:23:11,002 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:23:11,004 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 14:23:11,005 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 14:23:11,007 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 16:59:50,063 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 16:59:50,101 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 16:59:50,101 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 16:59:50,101 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 20:23:56,213 [Worker-22: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-11-05 20:24:00,790 [Worker-22: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 20:24:00,795 [Worker-22: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 20:24:00,798 [Worker-22: Launching StudentTestHashtableClosedAddressDivisionMethod] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 20:24:00,800 [Worker-22: Launching StudentTestHashtableClosedAddressDivisionMethod] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 20:24:25,440 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 20:24:25,441 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 20:24:25,444 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 20:24:25,446 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
+2020-11-05 20:25:23,032 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 20:25:23,034 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\main\resources
+2020-11-05 20:25:23,036 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-05 20:25:23,038 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R07-01-Rot-TabelaHash-environment\src\test\resources
