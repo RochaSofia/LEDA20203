@@ -64,7 +64,7 @@ public class StudentTestHashtableOpenAddressQuadraticProbing {
 		table1.insert(new HashtableElement(8));
 		assertEquals(8,table1.indexOf(new HashtableElement(8)));
 		table1.insert(new HashtableElement(12));
-		assertEquals(8,table1.indexOf(new HashtableElement(12)));
+		assertEquals(6,table1.indexOf(new HashtableElement(12)));
 		
 		
 		
