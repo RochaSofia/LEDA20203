@@ -77,23 +77,30 @@ public class StudentBSTTest {
 	}
 
 	@Test
-	public void testSucessorPredecessor() {
+	public void testSucessor() {
 
 		fillTree(); // -40 -34 0 2 5 6 9 12 23 67 76 232
 
-		assertEquals(null, tree.predecessor(-40));
 		assertEquals(new Integer(-34), tree.sucessor(-40).getData());
 
-		assertEquals(new Integer(-40), tree.predecessor(-34).getData());
+
 		assertEquals(new Integer(0), tree.sucessor(-34).getData());
 
-		assertEquals(new Integer(-34), tree.predecessor(0).getData());
+
 		assertEquals(new Integer(2), tree.sucessor(0).getData());
 
-		assertEquals(new Integer(0), tree.predecessor(2).getData());
+
 		assertEquals(new Integer(5), tree.sucessor(2).getData());
 	}
+	@Test
+	public void testPredecessor() {
+		fillTree(); // -40 -34 0 2 5 6 9 12 23 67 76 232
 
+		assertEquals(null, tree.predecessor(-40));
+		assertEquals(new Integer(-40), tree.predecessor(-34).getData());
+		assertEquals(new Integer(-34), tree.predecessor(0).getData());
+		assertEquals(new Integer(0), tree.predecessor(2).getData());
+	}
 	@Test
 	public void testSize() {
 		fillTree(); // -40 -34 0 2 5 6 9 12 23 67 76 232
@@ -121,6 +128,7 @@ public class StudentBSTTest {
 
 		tree.remove(2);
 		assertEquals(3, tree.height());
+
 	}
 
 	@Test
