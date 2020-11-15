@@ -57,7 +57,7 @@ public class FloorCeilBSTImpl extends BSTImpl<Integer> implements FloorCeilBST {
         if (key == node.getData()) {
         	return node.getData();
         }
-        if (key < node.getData()) {
+        if (key > node.getData()) {
         	return ceil((BSTNode<Integer>) node.getRight(), key);
         }
         
