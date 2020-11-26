@@ -122,9 +122,11 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 	}
 
     public void buildHeap(T[] array) {
-        heap = array;
-        index = array.length - 1;
-        for(int i = array.length/2;i>=0;i--) {
+        for(T element: array) {
+            this.insert(element);
+        }
+
+        for (int i = array.length / 2; i >= 0; i--) {
             heapify(i);
         }
         
@@ -153,28 +155,27 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 			return null;
 		}
 		return heap[0];
-		//throw new UnsupportedOperationException("Not implemented yet!");
 	}
 
 	@Override
 	public T[] heapsort(T[] array) {
 		// TODO Auto-generated method stub
-	        if (array == null) {
-	        	return null;
-	        }
-	        this.buildHeap(array);
-	        
-	        for (int i = 0; i < array.length; i++) {
-	            array[i] = extractRootElement();
-	        }
-	        
-	        if (array[0].compareTo(array[1]) > 0) {
-	            for (int i = 0; i < array.length/2; i++) {
-	                   Util.swap(array, i, array.length - i - 1);
-	            }
-	        }
-	        return array;
-	    }
+        if (array == null) {
+        	return null;
+        }
+
+        Comparator<T> original = this.getComparator();
+        if(this.comparator instanceof ComparatorMaxHeap<?>) {
+            this.setComparator((o1, o2) -> o2.compareTo(o1));
+        }
+
+        this.buildHeap(array);
+        for (int i = 0; i < array.length; i++) {
+            array[i] = extractRootElement();
+        }
+        this.setComparator(original);
+        return array;
+	}
 
 	@Override
 	public int size() {

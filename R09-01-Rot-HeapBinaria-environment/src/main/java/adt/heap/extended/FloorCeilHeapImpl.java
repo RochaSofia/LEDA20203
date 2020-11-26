@@ -14,24 +14,23 @@ public class FloorCeilHeapImpl extends HeapImpl<Integer> implements FloorCeilHea
 	public Integer floor(Integer[] array, double numero) {
 		// TODO Auto-generated method stub
 		Integer retorno = null;
-		HeapImpl<Integer> h = new HeapImpl(comparator);
 		for(int i=0; i< array.length; i++) {
-			h.insert(array[i]);
+			this.insert(array[i]);
 		}
 		for(int i=0;i<array.length;i++) {
-			if(h.rootElement() == numero) {
-				return h.rootElement();
+			if(this.rootElement() == numero) {
+				return this.rootElement();
 			}else
-			if(h.rootElement() < numero) {
+			if(this.rootElement() < numero) {
 				if(retorno == null) {
-					retorno = h.rootElement();
+					retorno = this.rootElement();
 				}else {
-					if(h.rootElement() > retorno) {
-						retorno = h.rootElement();
+					if(this.rootElement() > retorno) {
+						retorno = this.rootElement();
 					}
 				}
 			}
-			h.extractRootElement();
+			this.extractRootElement();
 		}
 		
 		return retorno;
@@ -41,29 +40,29 @@ public class FloorCeilHeapImpl extends HeapImpl<Integer> implements FloorCeilHea
 	@Override
 	public Integer ceil(Integer[] array, double numero) {
 		// TODO Auto-generated method stub
-//		Integer retorno = null;
-//		HeapImpl<Integer> h = new HeapImpl(comparator);
-//		for(int i=0; i< array.length; i++) {
-//			h.insert(array[i]);
-//		}
-//		for(int i=0;i<array.length;i++) {
-//			if(h.rootElement() == numero) {
-//				return h.rootElement();
-//			}else
-//			if(h.rootElement() > numero) {
-//				if(retorno == null) {
-//					retorno = h.rootElement();
-//				}else {
-//					if(h.rootElement() > retorno) {
-//						retorno = h.rootElement();
-//					}
-//				}
-//			}
-//			h.extractRootElement();
-//		}
-//		
-//		return retorno;
-		throw new UnsupportedOperationException("Not implemented yet!");
+		Integer ceil = null;
+        this.index = -1;
+        
+        for (Integer i : array) {
+            this.insert(i);
+        }
+        
+        if(!isEmpty()) {
+            for (int i = 0; i < array.length; i++) {
+                if(this.rootElement() == numero) ceil = this.rootElement();
+                
+                else if(this.rootElement() > numero) {
+                    if(ceil == null || ceil > this.rootElement()) ceil = this.rootElement();
+                } 
+                
+                else {
+                    this.extractRootElement();
+                }
+            }
+        }
+        
+        return ceil;
+		
 	}
 
 }

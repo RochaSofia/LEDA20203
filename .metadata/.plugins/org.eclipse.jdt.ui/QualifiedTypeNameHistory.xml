@@ -9,4 +9,5 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="adt.bt.BTNode"/>
 <fullyQualifiedTypeName name="adt.bst.BSTNode"/>
+<fullyQualifiedTypeName name="adt.heap.Heap"/>
 </qualifiedTypeNameHistroy>
