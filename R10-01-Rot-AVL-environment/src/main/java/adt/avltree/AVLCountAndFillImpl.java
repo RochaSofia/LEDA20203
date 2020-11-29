@@ -39,9 +39,7 @@ public class AVLCountAndFillImpl<T extends Comparable<T>> extends
 
 	@Override
 	public void fillWithoutRebalance(T[] array) {
-		
-
-		
+				
 		Arrays.sort(array);
 		int maxPot = (int) Math.floor(Math.log10(array.length)/Math.log10(2));
 		
