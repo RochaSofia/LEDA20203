@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="adt.linkedList.StudentLinkedListTest"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="util.Util"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="adt.hashtable.hashfunction.HashFunctionClosedAddress"/>
+<fullyQualifiedTypeName name="adt.bst.BSTNode"/>
+<fullyQualifiedTypeName name="adt.heap.Heap"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="adt.bt.BTNode"/>
-<fullyQualifiedTypeName name="adt.bst.BSTNode"/>
-<fullyQualifiedTypeName name="adt.heap.Heap"/>
+<fullyQualifiedTypeName name="adt.bt.Util"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
