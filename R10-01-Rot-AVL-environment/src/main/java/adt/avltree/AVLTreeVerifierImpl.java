@@ -22,7 +22,6 @@ public class AVLTreeVerifierImpl<T extends Comparable<T>> extends BSTVerifierImp
 	private AVLTreeImpl<T> getAVLTree() {
 		return avlTree;
 	}
-
 	@Override
 	public boolean isAVLTree() {
 		        return isBST() && verificaEAVL();

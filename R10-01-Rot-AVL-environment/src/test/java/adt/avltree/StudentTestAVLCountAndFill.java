@@ -29,7 +29,7 @@ public class StudentTestAVLCountAndFill {
 
 	@Test
 	public void testLLcount() {
-		assertEquals(0, tree1.LLcount());
+		
 		assertEquals(0, tree1.LLcount());
 		assertEquals(6, tree2.LLcount());
 		assertEquals(0, tree3.LLcount());

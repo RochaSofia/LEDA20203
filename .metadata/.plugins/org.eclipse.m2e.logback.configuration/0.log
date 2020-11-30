@@ -4605,3 +4605,35 @@ org.eclipse.core.runtime.CoreException: Launch configuration StudentMinHeapTest 
 2020-11-29 20:34:57,563 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment\src\test\resources
 2020-11-29 20:35:19,308 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2020-11-29 20:35:32,662 [Worker-57: Launching R10-01-Rot-AVL-environment (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment
+2020-11-29 20:35:32,663 [Worker-57: Launching R10-01-Rot-AVL-environment (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests install
+2020-11-29 20:39:16,445 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-29 20:39:16,460 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment\src\main\resources
+2020-11-29 20:39:16,465 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-29 20:39:16,467 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment\src\test\resources
+2020-11-29 20:40:04,285 [Worker-13: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-11-29 20:40:12,745 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-29 20:40:12,749 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment\src\main\resources
+2020-11-29 20:40:12,752 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-29 20:40:12,755 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment\src\test\resources
+2020-11-29 20:40:17,483 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-29 20:40:17,485 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment\src\main\resources
+2020-11-29 20:40:17,490 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-29 20:40:17,493 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment\src\test\resources
+2020-11-29 20:40:37,421 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-29 20:40:50,939 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-29 22:39:09,437 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-11-29 22:39:26,649 [Worker-6: Launching StudentTestAVLCountAndFill] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-29 22:39:26,656 [Worker-6: Launching StudentTestAVLCountAndFill] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment\src\main\resources
+2020-11-29 22:39:26,662 [Worker-6: Launching StudentTestAVLCountAndFill] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-29 22:39:26,664 [Worker-6: Launching StudentTestAVLCountAndFill] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment\src\test\resources
+2020-11-29 22:39:48,225 [Worker-7: Launching StudentAVLTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-29 22:39:48,228 [Worker-7: Launching StudentAVLTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment\src\main\resources
+2020-11-29 22:39:48,231 [Worker-7: Launching StudentAVLTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-29 22:39:48,233 [Worker-7: Launching StudentAVLTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment\src\test\resources
+2020-11-29 22:39:56,298 [Worker-9: Launching StudentAVLTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-29 22:39:56,299 [Worker-9: Launching StudentAVLTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment\src\main\resources
+2020-11-29 22:39:56,302 [Worker-9: Launching StudentAVLTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-29 22:39:56,304 [Worker-9: Launching StudentAVLTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment\src\test\resources
+2020-11-29 22:40:20,333 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-11-29 22:40:27,761 [Worker-1: Launching R10-01-Rot-AVL-environment (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\NT098765\Desktop\RoteriosLEDA\R10-01-Rot-AVL-environment
+2020-11-29 22:40:27,766 [Worker-1: Launching R10-01-Rot-AVL-environment (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests install
